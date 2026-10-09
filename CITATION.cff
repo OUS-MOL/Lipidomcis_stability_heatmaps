@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "lipid-stability-heatmap: statistics and heatmaps for lipid stability studies"
+abstract: >-
+  An R pipeline for lipid and metabolite stability studies. Samples stored under
+  different temperatures, storage times and freeze-thaw cycles are compared with
+  a -80 C / 0 h baseline using log2 fold changes, Kruskal-Wallis and Dunn's
+  tests, per lipid and per lipid class, and visualised as multi-panel
+  ComplexHeatmap figures.
+type: software
+authors:
+  - family-names: "Kvasnička"
+    given-names: "Aleš"
+  - family-names: "Piskláková"
+    given-names: "Barbora"
+version: 1.0.0
+date-released: 2026-10-09
+license: MIT
+repository-code: "https://github.com/OUS-MOL/Lipidomcis_stability_heatmaps"
+keywords:
+  - lipidomics
+  - metabolomics
+  - stability
+  - heatmap
+  - ComplexHeatmap
+  - R

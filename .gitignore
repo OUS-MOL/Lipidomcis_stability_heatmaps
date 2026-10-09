@@ -1,0 +1,24 @@
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rcheck/
+
+# Pipeline results of your own runs (the committed example results live in example_output/)
+output/
+run_log*.txt
+
+# Real / private data must never be committed: only the fictional example data is tracked
+data/*
+!data/README.md
+!data/example/
+!data/example/**
+private/
+*.rar
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+~$*
